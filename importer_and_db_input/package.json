@@ -1,0 +1,9 @@
+{
+  "name": "dog-importer",
+  "version": "1.0.0",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.26",
+    "x-ray": "^2.3.2"
+  }
+}

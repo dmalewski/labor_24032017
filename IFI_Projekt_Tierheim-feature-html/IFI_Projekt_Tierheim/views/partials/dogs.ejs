@@ -1,0 +1,28 @@
+<% dogs.forEach(function (dog) { %>
+<div class="elementgrid">
+  <a href="#modal" >
+      <p class="center figcap"><%= dog.name %> </p>
+      <hr />
+    <figure class="image-wrapper">
+      <img src="<%= dog.img %>"></img>
+    </figure> 
+    <figcaption>
+        <P class="center figbread"><%= dog.bread %></P>
+    </figcaption>
+  </a>
+  <div id="attribute">
+    <img id="icon" src="/images/<%= dog.height %>.png" title="<%= dog.height %>" />
+    <img id="icon" src="/images/<%= dog.age %>.png" title="<%= dog.age %>" />
+    <img id="icon" src="/images/<%= dog.gender %>.png" title="<%= dog.gender %>" />
+   <% if (dog.castrated.match(/Ja/ig)) { %>
+          <img id="icon" src="/images/Ja.png" title="kastriert" />
+   <% } %>
+   
+ </div>
+  <!--<div id="attribute">
+    <img src="/images/<%= dog.height %>.png" title="<%= dog.height %>">
+    <img src="/images/<%= dog.age %>.png" title="<%= dog.age %>">
+    <img src="/images/<%= dog.gender %>.png" title="<%= dog.gender %>">
+  </div>-->
+</div>
+<% }) %>

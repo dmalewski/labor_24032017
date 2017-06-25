@@ -1,0 +1,140 @@
+/**
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    main stylesheet for the webpage, also stylesheet for impressum & links
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+/* ----------------------------- general ------------------------------*/
+html{
+    width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    word-wrap:break-word;
+}
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    /* font style */
+    font-family: "Helvetica Neu", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font:inherit;
+    background-color: #fff;
+}
+h1{
+    line-height: 1;
+    color: ghostwhite;
+    text-shadow:  1px  1px 2px grey,
+                  1px -1px 2px grey,
+                 -1px  1px 2px grey,
+                 -1px -1px 2px grey;
+}
+h2{
+    text-align: center;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ----------------------------- head container ----------------------------*/
+.maincontainer{
+    width: 100%;
+    z-index: 2;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 200;  
+    line-height: 2.1428571435;
+    /* background-image */
+    background-image: url("../images/titel6.jpg");          
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ .container {
+    width: 100%;
+}
+.container {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.maincontainer .container > p{
+    /* text decoration */
+    color: ghostwhite;
+    text-shadow:  1px  1px 2px saddlebrown,
+                  1px -1px 2px saddlebrown,
+                 -1px  1px 2px saddlebrown,
+                 -1px -1px 2px saddlebrown;
+}
+div {
+    display: block;
+}
+
+/* ----------------------------- button in head container ----------------------------*/
+.navbtn {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding: 2px 5px 2px 5px;
+    font-size: 19px;
+    color: #1f1f1f;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    /* color transition */
+    background: -moz-linear-gradient(top,  #ededf0 0%, #8B6969 100%);
+	background: -webkit-linear-gradient(top,  #ededf0 0%, #8B6969 100%);
+	background: -o-linear-gradient(top,  #ededf0 0%, #8B6969 100%);
+	background: -ms-linear-gradient(top,  #ededf0 0%, #8B6969 100%);
+	background: linear-gradient(to bottom,  #ededf0 0%,#8B6969 100%);
+}
+.navbtn:hover,
+.navbtn:focus {
+    color: sienna;
+	background: -moz-linear-gradient(top,  #ededf0 0%, peru 100%);
+	background: -webkit-linear-gradient(top,  #ededf0 0%, peru 100%);
+	background: -o-linear-gradient(top,  #ededf0 0%,peru 100%);
+	background: -ms-linear-gradient(top,  #ededf0 0%, peru 100%);
+	background: linear-gradient(to bottom,  #ededf0 0%,peru 100%);
+	text-decoration:none;
+}
+
+/* ----------------------------- textdecoration ----------------------------*/
+.block {
+    text-align: justify;
+    padding: 40px 0px;
+}
+.center {
+    text-align: center;
+    padding: 10px 0px;
+	-webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.partner{
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+<% if (pagesCount) { %>
+  <div class="pagination-animation">
+    <div class="pagination">
+        <% for (let i = 0; i < pagesCount; i++) { %>
+          <a href="/hunde/<%= i %>"><%= i + 1 %></a>
+        <% } %>
+    </div>
+</div>
+<% } %>
+
+
+
